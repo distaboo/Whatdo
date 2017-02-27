@@ -28,12 +28,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         findViews();
         setSupportActionBar(toolbar);
-
-
         ViewPagerAdapter adapter = new ViewPagerAdapter(getSupportFragmentManager());
         setupViewPager(viewPager);
-
-
         tabLayout.setTabGravity(TabLayout.GRAVITY_FILL);
         tabLayout.setTabMode(TabLayout.MODE_FIXED);
 
