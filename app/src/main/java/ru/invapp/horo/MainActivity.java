@@ -34,9 +34,6 @@ public class MainActivity extends AppCompatActivity {
         setupViewPager(viewPager);
 
 
-
-        //attach tab layout with ViewPager
-        //set gravity for tab bar
         tabLayout.setTabGravity(TabLayout.GRAVITY_FILL);
         tabLayout.setTabMode(TabLayout.MODE_FIXED);
 
