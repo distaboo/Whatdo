@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
         findViews();
         setSupportActionBar(toolbar);
 
-        //create and set ViewPager adapter
+
         ViewPagerAdapter adapter = new ViewPagerAdapter(getSupportFragmentManager());
         setupViewPager(viewPager);
 
@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
         tabLayout.setTabGravity(TabLayout.GRAVITY_FILL);
         tabLayout.setTabMode(TabLayout.MODE_FIXED);
 
-        //change selected tab when viewpager changed page
+
         viewPager.addOnPageChangeListener(new TabLayout.TabLayoutOnPageChangeListener(tabLayout));
 
         tabLayout.setupWithViewPager(viewPager);
